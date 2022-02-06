@@ -1,0 +1,28 @@
+[
+    {
+        "keys": {
+            "primary": [],
+            "main": "="
+        },
+
+        "info": {
+            "description": "Increase Audio",
+            "group": "Audio"
+        },
+
+        "callback": "amixer set Master 5%+"
+    },
+    {
+        "keys": {
+            "primary": [],
+            "main": "-"
+        },
+
+        "info": {
+            "description": "Decrease Audio",
+            "group": "Audio"
+        },
+
+        "callback": "amixer set Master 5%-"
+    }
+]
